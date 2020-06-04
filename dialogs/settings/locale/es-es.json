@@ -1,0 +1,17 @@
+{
+  "hello-world:error.session": [
+    "Vaya, la página no se ha cargado. Por favor, vuelve a intentarlo más tarde"
+  ],
+  "hello-world:error.service": [
+    "Vaya, la página no se ha cargado. Por favor, vuelve a intentarlo más tarde"
+  ],
+  "hello-world:error.no_entity": [
+    "Lo siento, no te he entendido. Por favor, prueba de nuevo"
+  ],
+  "hello-world:home.welcome": [
+    "Bienvenido a la living app de Hello World"
+  ],
+  "hello-world:home.suggestions": [
+    "Atrás:intent.operation.hello-world.back|Mi nombre es %(name)s:intent.operation.hello-world.name?ent.name=%(name)s"
+  ]
+}

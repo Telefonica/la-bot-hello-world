@@ -1,0 +1,35 @@
+{
+  "dialogs": [
+    {
+      "triggerConditions": [
+        {
+          "context_filters": [],
+          "intent": "intent.hello-world.home"
+        }
+      ],
+      "id": "dialog-home",
+      "only_in": ["movistar-home", "set-top-box", "set-top-box-haac"]
+    },
+    {
+      "triggerConditions": [
+        {
+          "context_filters": [],
+          "intent": "intent.hello-world.stats"
+        }
+      ],
+      "id": "dialog-stats",
+      "only_in": ["movistar-home", "set-top-box", "set-top-box-haac"]
+    },
+    {
+      "triggerConditions": [
+        {
+          "context_filters": [],
+          "intent": "intent.hello-world.games"
+        }
+      ],
+      "id": "dialog-games",
+      "only_in": ["movistar-home", "set-top-box", "set-top-box-haac"]
+    }
+  ],
+  "name": "hello-world"
+}

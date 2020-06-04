@@ -1,0 +1,11 @@
+.DS_Store
+.nodemid
+.nyc_output
+.vs
+.vscode
+coverage/
+lib/
+node_modules/
+npm-debug.log
+remote-locale/
+*.tgz

@@ -1,0 +1,39 @@
+{
+    "name": "@telefonica/la-hello-world",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "engines": {
+        "node": "10.x"
+    },
+    "license": "UNLICENSED",
+    "plugin": {
+        "provides": [
+            "hello-world"
+        ]
+    },
+    "dependencies": {
+        "@telefonica/aura-la-bot-sdk": "^2.0.12",
+        "@hapi/joi": "^16.1.5",
+        "botbuilder": "~4.6.2",
+        "botbuilder-dialogs": "~4.6.2"
+    },
+    "devDependencies": {
+        "@types/node": "^10.14.4",
+        "@types/hapi__joi": "^15.0.4",
+        "cross-env": "^5.2.0",
+        "shx": "^0.3.2",
+        "tslint": "^5.18.0",
+        "typescript": "^3.5.3"
+    },
+    "scripts": {
+        "build": "npm run clean && npm run compile",
+        "clean": "cross-env shx rm -fR ./lib",
+        "compile": "tsc",
+        "prepare": "npm run build",
+        "lint": "tslint --project tsconfig.json --config tslint.json \"./src/**/*.ts\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Telefonica/la-hello-world"
+    }
+}
